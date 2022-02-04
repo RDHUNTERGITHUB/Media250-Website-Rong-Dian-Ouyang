@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Posters</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #Poster{
+            background-color: #f25509;
+            width: 500px;
+            height: calc(500px / 18 * 24);
+        }
+        .text{
+            font-size: 20px;
+            line-height: 40px;
+        }
+        h4{
+            line-height: 1.25;
+            margin: 0px;
+        }
+        .text--black{
+
+        }
+        .text--bright{
+            color: #dedfd3;
+        }
+        h1, .h1{
+            font-size: 200px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div id = "Poster">
+        <div class="text small--text" id= "text-top">
+        <h4>sunday</h4>
+        <h4>november 28 1982</h4>
+        <h4>a mass production</h4>
+        </div>
+        <div class="text small--text text--black" id= "text-mid">
+            <h4>at the bar house</h4>
+            <h4>at this address</h4>
+            <h4>come right through</h4>
+        </div>
+        <div class="text small--text" id= "text-bottom">
+            <h1 id= "bau">bau</h1>
+            <h2 class="h1 text--black"id = "haus">haus</h2>
+        </div>
+    </div>
+</body>
+</html>
