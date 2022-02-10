@@ -4,54 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Posters</title>
-    <style>
-        *{
-            box-sizing: border-box;
-        }
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        #Poster{
-            background-color: #f25509;
-            width: 500px;
-            height: calc(500px / 18 * 24);
-        }
-        .text{
-            font-size: 20px;
-            line-height: 40px;
-        }
-        h4{
-            line-height: 1.25;
-            margin: 0px;
-        }
-        .text--black{
-
-        }
-        .text--bright{
-            color: #dedfd3;
-        }
-        h1, .h1{
-            font-size: 200px;
-            margin: 0px;
-        }
-    </style>
+    <title>Poster Recreation</title>
+    <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-    <div id = "Poster">
-        <div class="text small--text" id= "text-top">
-        <h4>sunday</h4>
-        <h4>november 28 1982</h4>
-        <h4>a mass production</h4>
+    <div id = "poster">
+        <!--Upper Left-->
+        <div class="text text--small text--dark" id="text-UL" >
+            <h4>thursday</h4>
+            <h4>september 15 1983</h4><br />
+            <h4>over 18's only</h4>
+        </div> 
+        <!--Upper middle-->
+        <div class="text text--small text--dark" id="text-UM" >
+            <h4>at the venue</h4>
+            <h4>160-162 victoria street, london</h4> <br />
+            <h4>£3 admission</h4>
         </div>
-        <div class="text small--text text--black" id= "text-mid">
-            <h4>at the bar house</h4>
-            <h4>at this address</h4>
-            <h4>come right through</h4>
+        <!--Upper Right-->
+        <div class="text text--small text--dark" id="text-UR" >
+            <h4>with special guests</h4>
+            <h4>the go-between and felt</h4><br />
+            <h4>main band at 9:30</h4>
         </div>
-        <div class="text small--text" id= "text-bottom">
-            <h1 id= "bau">bau</h1>
-            <h2 class="h1 text--black"id = "haus">haus</h2>
+        <!--the smith text-->
+        <div class ="text"id="the--smiths" >
+            <h2>the smiths</h2><br />
+        </div>
+        <!--Four S-->
+        <div class=" text--big four--s" >
+            <h1 id="one">S</h1>
+            <h1 id="two">S</h1>
+            <h1 id="three">S</h1>
+            <h1 id="four">S</h1>
         </div>
     </div>
 </body>
